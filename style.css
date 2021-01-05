@@ -2,15 +2,23 @@ body{
     margin:0;
     font-family: 'Roboto', sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h4{
     font-family: 'Bebas Neue', cursive;
+    margin:0;
     font-weight:400;
+}
+h2{
+    font-size:48px;
 }
 a{
     text-decoration:none;
 }
-.menu{
-    max-width:90%;
+img{
+    width:100%;
+}
+.container{
+    width:85%;
+    margin:auto;
 }
 header ul{
     text-align:right;
@@ -26,4 +34,120 @@ header ul li a{
     font-weight:500;
     color:#3C3C3C;
     text-transform:capitalize;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.top-banner{
+    padding-top:80px;
+    height:500px;
+    padding-bottom:100px;
+}
+.top-banner h1{
+    font-size:80px;
+}
+.h1_color{
+    color:#363958;
+}
+
+.text-hightlight{
+    color:#FF8367;
+}
+p{
+    color:#3E3E3E;
+    line-height:26px;
+}
+.top-banner p{
+    padding-right:150px;
+    margin-bottom:45px;
+}
+.link-btn{
+    background-image:linear-gradient(150deg,#F56260,#FB7462);
+    padding:16px 50px;
+    border-radius:10px;
+    color:white;
+}
+.about-area{
+    height:500px;
+    
+}
+.about-area p{
+    padding-bottom:20px;
+}
+
+
+.latest-work{
+    width:100%;
+    height:600px;
+    padding:80px 0;
+    background-color:#F8F9FC;
+}
+
+.latest-work h2{
+    text-align:center;
+    margin-bottom:45px;
+}
+.color-red{
+    color:#F46060;
+}
+.single-work{
+    width:27%;
+    float: left;
+    background-color:#FFFFFF;
+    padding:15px;
+    border-radius:10px;
+    margin-left:3%;
+    box-shadow:5px 5px 20px rgb(216, 206, 206);
+}
+.single-work .link-btn{
+    display:block;
+    width:26%;
+    padding:8px 20px;
+    margin-top:5px;
+    float:right;
+}
+.let-chat{
+   padding:70px 100px;
+}
+.let-bg{
+    background-image: url("images/shape.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:240px;
+    
+}
+.let-bg h2{
+    color:white;
+    font-size:60px;
+    padding-top:70px;
+}
+.let-bg .link-btn{
+    margin-top: 83px;
+    display:block;
+    float: right;
+}
+footer{
+    text-align: center;
+}
+footer ul{
+    text-align: center;
+}
+footer ul li{
+    display:inline-block;
+    margin-right:20px;
+}
+footer ul li img{
+    width:35px;
+}
+footer h4{
+    color: #696871;
+    font-size:24px;
+}
+footer h3{
+    font-size:36px;
+    margin: 5px;
 }
